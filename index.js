@@ -1,5 +1,8 @@
-const nome = "DougDESTRUIDOR"
-const xp = 1000;
+var readline = require ('readline-sync')
+
+var nome = readline.question('Informe seu nome:')
+var xp = readline.questionInt('Informe sua quantidade xp:')
+
 
 
 // Variável para armazenar o nível do herói
